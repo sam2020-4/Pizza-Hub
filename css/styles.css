@@ -61,4 +61,13 @@ li:hover{
 }
 
 /* about stylings */
-.abt-img{}
+.about{
+    padding: 15px 30px;
+}
+
+.abt-img{
+    background-image: url('../images/background/People-Eating-Pizza.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
