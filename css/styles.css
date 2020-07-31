@@ -1,0 +1,23 @@
+body{
+    width: 100%;
+}
+
+.logo:hover{
+    background-color:greenyellow;
+    cursor: pointer;
+}
+
+.logo>span{
+    color:orange ;
+}
+ul>li{
+    margin-right: 20px;
+}
+
+li:hover{
+    background-color: green;
+}
+
+.landing-page{
+    back
+}
