@@ -16,18 +16,38 @@ ul>li{
 
 li:hover{
     background-color: green;
+    border-radius: 50%;
 }
 
 .landing-page{
-    background-image: url('../images/background/-kids-eating-pizza-png-409_306.png');
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url('../images/background/-kids-eating-pizza-png-409_306.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80vh;
+    height: 90vh;
     width: 100%;
     background-position: center;
     text-align: center;
     opacity: 0.8;
 }
-.main >h1{
-    padding-top: 50px;
+.landing-page >h1{
+    padding-top: 110px;
+    font-weight: bold;    
+}
+.landing-page{
+    color: white;
+    font-size: 20px;
+}
+
+
+/* colorchange */
+.colorchange{
+    animation: colorchangePIZZAHUB 1s infinite;
+}
+
+@keyframes  colorchangePIZZAHUB{
+    0% {color:red;}
+    25% {color:blue;}
+    50% {color:white}
+    75% {color:green;}
+    100% {color:orage;}
 }
