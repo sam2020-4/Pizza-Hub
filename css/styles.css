@@ -19,5 +19,15 @@ li:hover{
 }
 
 .landing-page{
-    back
+    background-image: url('../images/background/-kids-eating-pizza-png-409_306.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    background-position: center;
+    text-align: center;
+    opacity: 0.8;
+}
+.main >h1{
+    padding-top: 50px;
 }
