@@ -86,7 +86,7 @@
                                 <h2>Medium Pizza</h2>
                             </div>
                             <div class="card-body">
-                            <img src="images/download (2).jpeg" alt="">
+                            <img src="images/download.jpeg" alt="">
                             </div>                          
                             <div class="card-footer">
                             <div>
@@ -102,7 +102,7 @@
                                 <h2>Large Pizza</h2>
                             </div>
                             <div class="card-body">
-                            <img src="images/images (1).jpeg" alt="">
+                            <img src="images/download.jpeg" alt="">
                             </div>                          
                             <div class="card-footer">
                             <div>
@@ -114,9 +114,43 @@
                     </div>
                 </div>
             </div>
+            <hr>
             <!-- order -->
-            <div class="order">
-
+            <div class="order"> 
+                <h3>MAKE YOUR ORDER NOW</h3>
+                <div class="order row">
+                    <div class="col-md-12">
+                        <h5>Enter your order details below Fill in the form </h5>
+                        
+                        <form action="" id="pizza">
+                            <label for="">Choose your desired pizza size</label>
+                            <select class="form-control" name="size" id="size">
+                                <option value="1500">Large @ ksh 1500</option>
+                                <option value="700">Medium @ ksh 700</option>
+                                <option value="400">Small @ ksh 400</option>
+                            </select> <br> <br>
+        
+        
+                            <label for="">Choose your desired crust type</label>                           
+                            <select class="form-control" name="crust" id="crust">
+                                <option  value="200" name="crust">stuffed crust @ ksh200
+                                    <option  value="180" name="crust">Crispy crust @  ksh 180                                     
+                                <option value="350" name="crust">Glutten free crust @ ksh 350
+                            </select> <br> <br>
+        
+                            <label for="">Choose your Desired toppings</label> <br>
+                            <input value="80" type="checkbox" id="toppingone">Mushrooms
+                            <input value="80" type="checkbox" id="toppingone">Sausage
+                            <input value="80" type="checkbox" id="toppingone">Onions
+                            <input value="80" type="checkbox" id="toppingone">Tikka Sauce
+                            <input value="80" type="checkbox" id="toppingone">Mozarella Cheese        
+                            <br> <br> <br>
+                            <label for="">Enter Quantity</label>
+                            <input class="form-control form-group" type="text" id="numberofpizza"> 
+                            <button name="button" type="submit" id="submit" value="Check-Out" onclick="TotalPrice()">Submit</button>                            
+                        </form>
+                    </div> 
+                </div>                   
             </div>            
             <!-- Footer -->
             <footer class="page-footer font-small special-color-dark bg-dark pt-4">
