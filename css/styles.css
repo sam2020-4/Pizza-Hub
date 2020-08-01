@@ -81,3 +81,11 @@ li:hover{
     font-size: 25px;
     padding-top: 140px;    
 }
+
+
+/* footer */
+.footer-hr{
+    background-color: orange;
+    height: 2px;
+    border: none;
+}
