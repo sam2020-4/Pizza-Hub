@@ -94,3 +94,7 @@ li:hover{
     background-position: center;
     background-size: cover;
 }
+.menu>h2{
+    padding: 20px;
+    color: rgb(253, 251, 251);
+}
