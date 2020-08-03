@@ -98,3 +98,10 @@ li:hover{
     padding: 20px;
     color: rgb(253, 251, 251);
 }
+
+.order>h3{
+    text-align: center;
+    color: orange;
+    font-weight: bold;
+    padding: 15px;
+}
