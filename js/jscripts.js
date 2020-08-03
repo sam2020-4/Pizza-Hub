@@ -62,13 +62,13 @@ $(document).ready(function(){
     // submitting null values
     if((psize == "0") && (pcrust == "0")){
     console.log("nothing selected");
+
     $("button.submit").show(); 
-    $("div.choise").hide();
-    alert("kindly, select pizza size and crust"); 
+    // $(".summarypreview").hide();
+    alert("kindly, select your desired pizza size and crust"); 
     }
     else{
-    $("button.submit").hide(); 
-    $("div.choise").slideDown(1000);
+    $("button.submit").hide();     
     }
 
     // displaying total 
@@ -145,22 +145,20 @@ $(document).ready(function(){
         $("button#checkout").hide();
         $("button.addP").hide();
         $("button.deliver").slideDown(1100);
-        $("#addedprice").slideDown(1100);
-        console.log("Your total CHARGE is sh. "+checkoutTotal);
+        $("#addedprice").slideDown(1100);        
         alert("Dear customer Your bill is sh. "+checkoutTotal);
     });
 
     // home delivery button
     $("button.deliver").click(function(){
-        $(".table").hide();
-        $(".summarypreview h2").hide();
+        $(".table").hide();        
         $(".delivery").slideDown(1100);
         $("#addedprice").hide();
         $("button.deliver").hide();
         $("#pizzatotal").hide();
         let deliceryamount= checkoutTotal+ 100;
         // alert("Your total pay sh. "+deliceryamount+" on delivery");
-        alert("Your bill plus delivery fee is: "+deliceryamount +" please provide us direction Information for delivery")
+        alert("Hello,Your bill plus delivery fee is: "+deliceryamount +" please provide us direction Information for delivery")
     });
 
     // when one clicks place order button
@@ -180,7 +178,7 @@ $(document).ready(function(){
         }
 
         else {
-            alert("Please fill in the details for delivery!");
+            alert("Please fill in the required details for delivery!");
             $(".delivery").show();
             $("button#final-order").show();
             }
